@@ -6,7 +6,7 @@ import Image from "next/image";
 import { Typewriter } from "react-simple-typewriter";
 import { FaLinkedin } from "react-icons/fa";
 
-const EducationContent = () => {
+const Education = () => {
   return (
     <motion.div
       initial="hidden"
@@ -124,4 +124,4 @@ const EducationContent = () => {
   );
 };
 
-export default EducationContent;
+export default Education;
