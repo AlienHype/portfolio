@@ -26,6 +26,8 @@ const Navbar = () => {
         {/* Mobile Menu Toggle Button */}
         <div className="sm:hidden flex items-center">
           <button
+            type="button"
+            aria-label="Toggle mobile menu"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
             className="text-gray-300 focus:outline-none"
           >
