@@ -4,8 +4,8 @@ import ProjectCard from "../sub/ProjectCard1";
 
 const Certifications = () => {
   const certifications = [
-    { id: 1, src: "/cs50.png", title: "Certification in Phython CS50", description: "Project made with Phython" },
-    { id: 2, src: "/react1.png", title: "Certification in React", description: "Master the art of raect.js." },
+    { id: 1, src: "/cs50.png", title: "Certification in Phython CS50", description: "Project made with Python" },
+    { id: 2, src: "/react1.png", title: "Certification in React", description: "Master the art of React.js" },
     { id: 3, src: "/git12.png", title: "Certification in Git", description: "Unlock insights with powerful data tools." },
     { id: 4, src: "/web.png", title: "Certification in Web Development", description: "Build modern, responsive websites." },
     { id: 5, src: "/linux.png", title: "Certification in Linux", description: "Design and manage secure networks." },

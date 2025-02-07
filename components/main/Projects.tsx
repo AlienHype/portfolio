@@ -52,20 +52,21 @@ const ProjectContent = () => {
       className="flex flex-col lg:flex-row items-center justify-center px-4 lg:mt-40 w-full z-[20]"
     >
       <div className="h-full w-full flex flex-col gap-5 justify-center text-center lg:text-start m-auto text-center">
-        <div className="typeAnimation aos-init aos-animate text-4xl lg:text-6xl font-bold text-white max-w-full w-auto h-auto">
-          <span>My Projects</span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            <Typewriter
-              words={['React Projects', 'Business Solutions', 'E-commerce Platforms','Working on']}
-              loop={0}
-              cursor
-              cursorStyle="|"
-              typeSpeed={70}
-              deleteSpeed={50}
-              delaySpeed={1000}
-            />
-          </span>
-        </div>
+      <div className="typeAnimation aos-init aos-animate text-4xl lg:text-6xl font-bold text-white max-w-full w-auto h-auto">
+      <span>My Projects</span>
+      <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 inline-block min-w-[200px]">
+    <Typewriter
+      words={['React Projects', 'Business Solutions', 'E-commerce Platforms', 'Working on']}
+      loop={0}
+      cursor
+      cursorStyle="|"
+      typeSpeed={70}
+      deleteSpeed={50}
+      delaySpeed={1000}
+    />
+  </span>
+</div>
+
 
         <motion.p
           variants={slideInFromLeft(0.8)} // Passing delay as a number here
