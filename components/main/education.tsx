@@ -18,7 +18,7 @@ const Education = () => {
           <span>My Educational and Professional Journey</span>
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             <Typewriter
-              words={['Student in Information Systems', 'Exploring Web Development', 'Working at Lasentinelle (intern)']}
+              words={['Student in IS', 'Exploring Web Development', 'Working at Lasentinelle']}
               loop={0}
               cursor
               cursorStyle="|"

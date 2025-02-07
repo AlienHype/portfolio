@@ -73,7 +73,7 @@ const HeroContent = () => {
         />
       </motion.div>
       <small className="block text-gray-500 italic text-left my-2">
-             I made this website using ReactJS.
+             I made this website using NextJS.
             </small>
     </motion.div>
   );
