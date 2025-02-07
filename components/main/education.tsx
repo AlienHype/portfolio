@@ -16,7 +16,7 @@ const Education = () => {
       <div className="h-full w-full flex flex-col gap-5 justify-center text-center lg:text-start m-auto text-center">
         <div className="typeAnimation aos-init aos-animate text-4xl lg:text-6xl font-bold text-white max-w-full w-auto h-auto">
           <span>My Educational and Professional Journey</span>
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
+          {/* <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             <Typewriter
               words={['Student in IS', 'Exploring Web Development', 'Working at Lasentinelle']}
               loop={0}
@@ -26,7 +26,7 @@ const Education = () => {
               deleteSpeed={50}
               delaySpeed={1000}
             />
-          </span>
+          </span> */}
         </div>
 
         <motion.p
