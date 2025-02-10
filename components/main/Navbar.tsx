@@ -102,7 +102,7 @@ const Navbar = () => {
               Certifications
             </a>
             <a
-              href="#projects"
+              href="#Projects"
               className="cursor-pointer transition-all duration-300 hover:text-red-500 hover:text-shadow-[0_0_10px_red]"
             >
               Projects

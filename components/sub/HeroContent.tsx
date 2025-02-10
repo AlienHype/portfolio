@@ -24,7 +24,7 @@ const HeroContent = () => {
                  <span>Hi, I'm Arpan Khetha </span>
                     <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
                   <Typewriter
-                           words={['a web developer', 'Technical support']}
+                           words={['a front-end developer', 'UI/UX Designer']}
                             loop={0}
                                  cursor
                                  cursorStyle="|"
