@@ -16,7 +16,7 @@ export default function Home() {
         <Education />
         <Certifications/>
         <Projects />
-         <Footer/>
+        <Footer/>
       </div>
     </main>
   );
