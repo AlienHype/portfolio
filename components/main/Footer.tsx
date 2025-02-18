@@ -42,7 +42,7 @@ const Footer = () => {
         </div>
 
         <div className="text-center text-gray-400 mt-6">
-        &copy; Hype {new Date().getFullYear()} Inc. All rights reserved
+        &copy; Arpan {new Date().getFullYear()} Inc. All rights reserved
         </div>
       </div>
     </motion.div>

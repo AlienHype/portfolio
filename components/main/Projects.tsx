@@ -23,7 +23,7 @@ const ProjectContent = () => {
       title: "Happy Pizza",
       description: " E-commerce platform for a pizza restaurant, allowing customers to order online and view the menu.",
       image: "/pizza.png",
-      link: "/https://happy-pizza.vercel.app/",
+      link: "https://happy-pizza.vercel.app/",
     },
     {
       title: "Hype Rentals",
