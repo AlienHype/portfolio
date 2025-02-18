@@ -35,15 +35,15 @@ const Education = () => {
         >
           I am currently pursuing a diploma in Information Systems while gaining professional experience in the field of web development and business computing. Below is a look at my academic and work experience.
         </motion.p>
-
         <motion.a
           href="https://www.linkedin.com/in/arpan-rai-khetha-533247332/"
           variants={slideInFromLeft(1)}
-          className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[250px] mx-auto lg:mx-0 mt-4 lg:mt-6"
+          className="py-2 px-6 button-primary text-center text-white cursor-pointer rounded-lg max-w-[250px] mx-auto lg:mx-0 mt-4 lg:mt-6 flex items-center justify-center gap-2"
           target="_blank"
           rel="noopener noreferrer"
         >
-         <FaLinkedin size={30} />
+          <FaLinkedin size={30} />
+            <span className="hidden lg:block italic">Arpan Rai Khetha</span>
         </motion.a>
 
         
